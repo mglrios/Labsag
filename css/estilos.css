@@ -1,0 +1,91 @@
+/*botón inicio en contacto page*/
+.inicio{
+  width: 50px;
+  height: 50px;
+  right: 40px;
+  bottom: 40px;
+  z-index: 999;
+  position: fixed;
+  background-color: #33a9ee;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.logo-iso-9001{
+  width: 100px;
+  height: 100px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  position: fixed;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+#header-logo-container{
+  width: 100%;
+  text-align: center;
+}
+
+#header-logo-container img{
+  width: 35%; margin: 20px 0;
+}
+
+.ow-navigation .navbar-header {
+
+  top: 0px;
+  left: 0px;
+  z-index: 9999;
+  position: fixed;
+}
+
+.modal-content{
+  webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+  -webkit-background-clip: none;
+  background-clip: none;
+  border: none;
+  border: none;
+  cursor: zoom-out;
+}
+
+.modal .modal-dialog .modal-content .modal-body{
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  #header-logo-container img{
+    width: 35%; margin: 20px 0;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #header-logo-container img{
+    width: 50%; margin: 20px 0;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 319px) and (max-width: 767px){
+  #header-logo-container img{
+    width: 70%; margin: 20px 0;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 319px) and (max-width: 479px){
+  #header-logo-container img{
+    width: 80%; margin: 20px 0;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 319px){
+  #header-logo-container img{
+    width: 100%; margin: 20px 0;
+    text-align: left;
+  }
+}
