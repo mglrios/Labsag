@@ -31,7 +31,7 @@
 
 /* -- Photo Slider */
 .home-banner {
-	background: url("../imagenes/doctores.png");
+	background: url("../imagenes/doctores-2.png");
 	width: 100%;
 	height: 100%;
 	background-size: cover;
@@ -46,7 +46,7 @@
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background-color: #f2faff;
+	background-color: rgba(200,200,200,0.1);
 	opacity: 0.8;
 	display: inline-block;
 }
